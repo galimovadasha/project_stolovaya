@@ -102,7 +102,7 @@ def vybor_bakers():
     markup.row(button1)
     markup.row(button2)
     button3 = types.InlineKeyboardButton('Булочка с сахаром(43р.)', callback_data = 'Булочка с сахаром(43р.)')
-    button4 = types.InlineKeyboardButton('Хлеб(3р.)', callback_data = 'Хлеб(3р.)')
+    button4 = types.InlineKeyboardButton('Хлеб(2р.)', callback_data = 'Хлеб(2р.)')
     markup.row(button3)
     markup.row(button4)
     confirm_button = types.InlineKeyboardButton('Перейти к оплате', callback_data='confirm')
