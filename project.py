@@ -3,7 +3,7 @@ import uuid
 from telebot import types
 from random import randint
 
-bot = telebot.TeleBot('6325646624:AAGfCgsYtmqVReSD2h0N9MYvqMog1jEqQUY')
+bot = telebot.TeleBot('наш токен')
 
 orders = []
 pending_orders = {}
