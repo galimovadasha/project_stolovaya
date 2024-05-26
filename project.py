@@ -37,7 +37,7 @@ def message_reply(message):
         orders.append(succesful_order)
         code = randint(1000, 10000)
         bot.send_message(message.chat.id, f'Ваш заказ успешно оплачен!\nКод для получения заказа: {code}')
-        bot.send_message(-1002050298201, f'Заказ {code}: \n{', '.join(succesful_order[0])} - {succesful_order[1]}р.')    
+        bot.send_message(-1002050298201, f'Заказ {code}: \n{", ".join(succesful_order[0])} - {succesful_order[1]}р.')    
     else:
         bot.send_message(message.chat.id, "Привет, {0.first_name}! Выберите из предложенного:".format(message.from_user), reply_markup = markup)
 
